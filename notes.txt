@@ -1,0 +1,28 @@
+------------------------------------------------------------------------------------------------------------------------
+MCP Powered Audio Analysis Toolkit
+------------------------------------------------------------------------------------------------------------------------
+We have an MCP-driven audio analysis toolkit that accepts an audio file and lets you transcribe it and extract insights
+such as sentiment analysis, speaker labels, summary and topic detection. It also lets you chat with audio.
+
+Tech Stack:
+Assembly AI for transcription and audio analysis.
+Claude desktop as the MCP host - Explore options - open
+Streamlit for UI
+
+Workflow:
+User's Audio input is sent to AssemblyAI via a local MCP Server.
+Assembly AI transcribes the audio while providing the summary, speaker labels, sentiment analysis and topics.
+Post-transcription, the user can also chat with audio.
+
+------------------------------------------------------------------------------------------------------------------------
+Developement Plan
+------------------------------------------------------------------------------------------------------------------------
+1. Create a local MCP server that accepts audio input and sends it to Assembly AI for transcription and analysis. - OPEN
+
+2. Create a tool which returns the insights from the transcription and analysis.
+3. Create a MCP server to orchestrate the other tools and workflow.
+4. Create a Streamlit UI for the application.
+5. Integrate the MCP server with the Streamlit UI.
+
+
+
