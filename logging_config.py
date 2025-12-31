@@ -3,7 +3,7 @@ import sys
 from logging.handlers import RotatingFileHandler
 
 def setup_logger(
-        name= "inference_wound_healing_pinns",
+        name= "MCP AssemblyAI Streaming API",
         log_file="app_log.log",
         level=logging.DEBUG,
         max_bytes=10*1024*1024,

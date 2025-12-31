@@ -1,3 +1,7 @@
 assemblyai
+assemblyai[extras]
 python-dotenv
 logging
+mcp-client
+httpx
+pyaudio

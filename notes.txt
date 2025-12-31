@@ -24,5 +24,16 @@ Developement Plan
 4. Create a Streamlit UI for the application.
 5. Integrate the MCP server with the Streamlit UI.
 
+------------------------------------------------------------------------------------------------------------------------
+MCP Notes
+------------------------------------------------------------------------------------------------------------------------
+MCP offers three main types of capabilities
+Resources: File-like data that can be read by clients (API responses, file contents)
+Tools: FUnctions that can be called by the LLM (with approval)
+Prompts: Pre-written templates that help users accomplish specific tasks
+
+
+
+
 
 

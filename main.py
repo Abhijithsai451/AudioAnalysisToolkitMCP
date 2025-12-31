@@ -1,16 +1,15 @@
-# This is a sample Python script.
+from assemblyai_config import client_connect, stream_microphone, close_streaming, create_client
+from logging_config import setup_logger
 
-# Press ⌃R to execute it or replace it with your code.
-# Press Double ⇧ to search everywhere for classes, files, tool windows, actions, and settings.
+logger = setup_logger()
 
-
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press ⌘F8 to toggle the breakpoint.
-
-
-# Press the green button in the gutter to run the script.
 if __name__ == '__main__':
-    print_hi('PyCharm')
-
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+    """logger.info("Starting Assembly AI Streaming API connection...")
+    client = create_client()
+    client = client_connect(client)
+    try:
+        stream_microphone(client)
+    except Exception as e:
+        logger.error(e)
+    finally:
+        close_streaming(client)"""
